@@ -1,0 +1,6 @@
+# .gitignore
+
+/target
+**/*.rs.bk
+.DS_Store
+worlds/*.json
