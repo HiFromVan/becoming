@@ -16,3 +16,6 @@ anyhow = { workspace = true }
 log = { workspace = true }
 env_logger = { workspace = true }
 pollster = { workspace = true }
+
+[dev-dependencies]
+macroquad = "0.4"

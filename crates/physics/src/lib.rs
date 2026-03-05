@@ -5,5 +5,7 @@
 //! 它们共享同一种语言（core），但各自定义不同的现实。
 
 pub mod reaction_diffusion;
+pub mod gravity;
 
 pub use reaction_diffusion::ReactionDiffusion;
+pub use gravity::{Gravity, ParticleState};
